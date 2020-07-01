@@ -1,6 +1,7 @@
 # aws-tagger
 Tagging AWS resources is hard because each resource type has a different API which is slightly different. The AWS bulk tagging tool eliminates these differences so that you can simplify specify the resource ID and the tags and it takes care of the rest.  Any tags that already exist on the resource will not be removed, but the values will be updated if the tag key already exists. Tags are case sensitive.
 
+
 ## Install
 ```
 pip install aws-tagger
